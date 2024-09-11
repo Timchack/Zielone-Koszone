@@ -766,16 +766,17 @@ h1 {
 
 .footer {
 	display: flex;
+	
 	justify-content: center;
 	align-items: center;
-	height: 7vh;
+	height: 100px;
 	background-color: $bg-secondary;
 	font-weight: 300;
 
 	&__logo {
 		position: relative;
 
-		max-height: 5em;
+		max-height: 90px;
 		object-fit: contain;
 		cursor: pointer;
 	}
