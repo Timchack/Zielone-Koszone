@@ -97,8 +97,6 @@ h1 {
 		max-height: 5em;
 		object-fit: contain;
 		cursor: pointer;
-
-		
 	}
 
 	&__items {
@@ -292,7 +290,6 @@ h1 {
 // ABOUT US //
 
 .aboutus {
-	
 	&__boxes {
 		display: flex;
 		justify-content: center;
@@ -340,13 +337,13 @@ h1 {
 		box-shadow: 3px 3px 10px $opaque2;
 		transform: rotate(45deg);
 		overflow: hidden;
-		
 	}
 	&__info-img {
-		height: 600px;width: auto;
+		height: 600px;
+		width: auto;
 		object-fit: contain;
 		transform: rotate(-45deg);
-	
+
 		filter: opacity(0.5);
 	}
 
@@ -768,24 +765,22 @@ h1 {
 // FOOTER //
 
 .footer {
-	
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	height: 7vh;
 	background-color: $bg-secondary;
 	font-weight: 300;
-	
-	&__logo{
+
+	&__logo {
 		position: relative;
-		
+
 		max-height: 5em;
 		object-fit: contain;
 		cursor: pointer;
 	}
-	&__bottom-text{
+	&__bottom-text {
 		position: relative;
-	
 	}
 }
 
